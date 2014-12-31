@@ -1,6 +1,6 @@
 {
   "name": "protractor-cucumber-junit",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Converts the JSON output of protractor cucumber framework to JUnitXML",
   "bin": {
     "cucumber-junit": "bin/cucumber-junit"
@@ -12,7 +12,9 @@
     "type": "git",
     "url": "https://github.com/sonyschan/protractor-cucumber-junit.git"
   },
-  "bugs": "https://github.com/sonyschan/protractor-cucumber-junit/issues",
+  "bugs": {
+    "url": "https://github.com/sonyschan/protractor-cucumber-junit/issues"
+  },
   "keywords": [
     "protractor",
     "cucumber",
@@ -29,5 +31,10 @@
   "devDependencies": {
     "ytestrunner": "~0.3.3",
     "yuitest": "~0.7.9"
+  },
+  "homepage": "https://github.com/sonyschan/protractor-cucumber-junit",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
   }
 }
