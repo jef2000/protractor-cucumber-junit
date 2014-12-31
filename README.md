@@ -1,7 +1,5 @@
 # cucumber-junit
 
-[![wercker status](https://app.wercker.com/status/a4b60396ae8a91bf223f44cdac8e09df/m "wercker status")](https://app.wercker.com/project/bykey/a4b60396ae8a91bf223f44cdac8e09df)
-
 Converts CucumberJS JSON output into JUnitXML for software like Jenkins to read.
 
 ## Install
@@ -9,7 +7,7 @@ Converts CucumberJS JSON output into JUnitXML for software like Jenkins to read.
 cucumber-junit should be added to your test codebase as a dev dependency.  You can do this with:
 
 ``` shell
-$ npm install --save-dev cucumber-junit
+$ npm install protractor-cucumber-junit --save-dev 
 ```
 
 Alternatively you can manually add it to your package.json file:
@@ -17,7 +15,7 @@ Alternatively you can manually add it to your package.json file:
 ``` json
 {
   "devDependencies" : {
-    "cucumber-junit": "latest"
+    "protractor-cucumber-junit": "latest"
   }
 }
 ```
@@ -30,12 +28,12 @@ $ npm install --dev
 
 ## Run
 
-cucumber-junit should be appended to your existing Cucumber.JS commands
+protractor-cucumber-junit will convert your protractor cucumber test result to JUnitXML
 
 ``` shell
-$ node_modules/.bin/cucumber-js --format=json | cucumber-junit > output_JUnit.xml
+$ cat tests/features/cucumber_report.json | ./node_modules/.bin/cucumber-junit > tests/features/cucumber_report.xml
 ```
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [St. John Johnson](http://stjohnjohnson.com)
+[MIT](http://opensource.org/licenses/MIT)
