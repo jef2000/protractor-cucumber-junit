@@ -1,6 +1,6 @@
-# cucumber-junit
+# protractor-cucumber-junit
 
-Converts CucumberJS JSON output into JUnitXML for software like Jenkins to read.
+Converts Protractor Cucumber framework generated JSON output into JUnitXML for software like Jenkins to read.
 
 ## Install
 
