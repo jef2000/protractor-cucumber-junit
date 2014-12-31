@@ -1,7 +1,7 @@
 {
-  "name": "cucumber-junit",
-  "version": "1.1.9",
-  "description": "Cucumber wrapper that converts the JSON output to JUnitXML",
+  "name": "protractor-cucumber-junit",
+  "version": "1.0.0",
+  "description": "Converts the JSON output of protractor cucumber framework to JUnitXML",
   "bin": {
     "cucumber-junit": "bin/cucumber-junit"
   },
@@ -10,20 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stjohnjohnson/cucumber-junit.git"
+    "url": "https://github.com/sonyschan/protractor-cucumber-junit.git"
   },
-  "bugs": "https://github.com/stjohnjohnson/cucumber-junit/issues",
+  "bugs": "https://github.com/sonyschan/protractor-cucumber-junit/issues",
   "keywords": [
+    "protractor",
     "cucumber",
     "junit"
   ],
   "engines": {
     "node": "~0.10.20"
   },
-  "author": "St. John Johnson <st.john.johnson@gmail.com>",
+  "author": "Sonys Chan <sonys.chan@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "xml": "0.0.12"
+    "xml": "~0.0.12"
   },
   "devDependencies": {
     "ytestrunner": "~0.3.3",
