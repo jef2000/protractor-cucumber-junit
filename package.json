@@ -1,6 +1,6 @@
 {
   "name": "protractor-cucumber-junit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Converts the JSON output of protractor cucumber framework to JUnitXML",
   "bin": {
     "cucumber-junit": "bin/cucumber-junit"
