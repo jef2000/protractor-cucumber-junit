@@ -2,6 +2,10 @@
 
 Converts Protractor Cucumber framework generated JSON output into JUnitXML for software like Jenkins to read.
 
+## Description
+
+Protractor set configuration "resultJsonOutputFile" to be true to save the JSON output of cucumber-js. However the JSON output is not in ideal Cucumber output format. Currently this package only convert this JSON output to be an acceptable JUnitXML for Jenkins to read, beware it's not a really a well defined report.
+
 ## Install
 
 cucumber-junit should be added to your test codebase as a dev dependency.  You can do this with:
